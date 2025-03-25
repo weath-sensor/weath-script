@@ -24,6 +24,7 @@ const char *lightServerUrl = "http://your-vps-ip:3000/ldr-data";
 const char *temperatureServerUrl = "http://your-vps-ip:3000/temperature";
 const char *humidityServerUrl = "http://your-vps-ip:3000/humidity";
 Build and upload via PlatformIO.
+```
 
 ### Option 2: Arduino IDE
 Copy the script into a new sketch, update the configuration lines as above, and upload.
