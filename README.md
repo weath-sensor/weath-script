@@ -16,7 +16,7 @@ This project collects sensor data (light, temperature, humidity) and sends it to
 ESP8266 does not support `std::getenv()`, so configure settings at compile time.
 
 ### Option 1: PlatformIO
-Edit `main.cpp`:
+Edit `src/main.cpp`:
 ```cpp
 const char *ssid = "your_wifi_ssid";
 const char *password = "your_wifi_password";
