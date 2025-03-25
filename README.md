@@ -30,8 +30,9 @@ Build and upload via PlatformIO.
 Copy the script into a new sketch, update the configuration lines as above, and upload.
 
 ### Troubleshooting
-NodeMCU Upload Issues (Windows):
 
-Install the CH341SER driver if you have upload problems.
+# NodeMCU Upload Issues (Windows):
 
-Verify the NodeMCU appears correctly in Device Manager (under "Ports").
+# Install the CH341SER driver if you have upload problems.
+
+# Verify the NodeMCU appears correctly in Device Manager (under "Ports").
