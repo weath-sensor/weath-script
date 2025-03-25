@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "E:/jukka-dev/arduino/one"
+		},
+		{
+			"name": "nodemcu",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
