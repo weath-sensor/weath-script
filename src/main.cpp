@@ -101,19 +101,16 @@ void sendDataToServer(int ldrValue, float temperatureC, float humidity)
   String temperaturePostData = "{\"temperature\": " + String(temperatureC, 2) + "}";
   String humidityPostData = "{\"humidity\": " + String(humidity, 2) + "}";
 
-  // Send Light Data
   http.begin(client, lightServerUrl);
   http.addHeader("Content-Type", "application/json");
   http.POST(lightPostData);
   http.end();
 
-  // Send Temperature Data
   http.begin(client, temperatureServerUrl);
   http.addHeader("Content-Type", "application/json");
   http.POST(temperaturePostData);
   http.end();
 
-  // Send Humidity Data
   http.begin(client, humidityServerUrl);
   http.addHeader("Content-Type", "application/json");
   http.POST(humidityPostData);
